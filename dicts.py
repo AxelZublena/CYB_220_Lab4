@@ -7,6 +7,7 @@ person = {
         "username": "colonelz"
         }
 
+print("Exercise 1")
 # Q1
 print(person)
 
@@ -17,11 +18,12 @@ print(person["hometown"])
 print(person["current_city"])
 print(person["username"])
 
-print("\n")
+print("\nExercise 2")
 # Q2
 print(f"This person's first name is {person['f_name']}, last name is {person['l_name']}, is {person['age']} years old, lives in {person['current_city']}, and their username is {person['username']}.")
 print(f"For security reasons, we might asks them for their hometown, which is {person['hometown']}")
 
+print("Exercise 3")
 # Q3
 definitions = {
         "python": "programming language",
@@ -42,12 +44,13 @@ print(f"\n- if_statement:\n{definitions['if_statement']}")
 print(f"\n- dictionary:\n{definitions['dictionary']}")
 print(f"\n- function:\n{definitions['function']}")
 
-print("\n")
+print("\nExercise 4")
 # Q4
 for word, definition in definitions.items():
     print(f"\n- {word}:\n{definition}")
 
 
+print("Exercise 5")
 # Q5
 sc_counties = {
         "abbeville": "abbeville",
@@ -97,7 +100,7 @@ sc_counties = {
         "york": "york"
         }
 
-print("\n")
+print("\nExercise 6")
 # Q6
 counties = ["union", "yorkshire", "malboro", "greenville", "spartanburg", "saludo", "anderson", "newberry", "hampton", "charleston"]
 for county in counties:
@@ -106,7 +109,7 @@ for county in counties:
     else:
         print(f"{county.title()} is not in our dictionary. We will add this county shortly. Thanks!")
 
-print("\n")
+print("\nExercise 8")
 # Q8
 anderson = {
         "anderson": 28106,
@@ -149,7 +152,7 @@ for county in counties:
     for city, population in county[-1].items():
         print(f"In {city.title()}, {county[0].title()}, the current population is {population}")
 
-print("\n")
+print("\nExercise 9")
 # Q9
 sc_counties = {
         "anderson": ["anderson", "easley", "clemson"],
